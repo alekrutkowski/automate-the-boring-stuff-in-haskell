@@ -20,7 +20,7 @@ main = do
             ,("rope", 1)]
         new_inv = addToInventory inv dragon_loot
     putStrLn "Inventory:"
-    mapM_ printValKey $ Map.toList $
+    mapM_ printValKey $ Map.toList
         new_inv
     putStrLn $
         "\nTotal number of items: " ++
